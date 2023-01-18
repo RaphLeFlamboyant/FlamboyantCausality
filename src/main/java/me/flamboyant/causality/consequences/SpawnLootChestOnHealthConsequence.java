@@ -1,6 +1,6 @@
 package me.flamboyant.causality.consequences;
 
-import me.flamboyant.common.utils.Common;
+import me.flamboyant.utils.Common;
 import me.flamboyant.causality.TriggerType;
 import org.bukkit.Location;
 import org.bukkit.Material;

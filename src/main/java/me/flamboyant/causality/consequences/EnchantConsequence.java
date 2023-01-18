@@ -1,9 +1,9 @@
 package me.flamboyant.causality.consequences;
 
-import me.flamboyant.common.parameters.AParameter;
-import me.flamboyant.common.parameters.EnumParameter;
-import me.flamboyant.common.utils.Common;
-import me.flamboyant.common.utils.EnchantmentUtils;
+import me.flamboyant.parameters.AParameter;
+import me.flamboyant.parameters.EnumParameter;
+import me.flamboyant.utils.Common;
+import me.flamboyant.utils.EnchantmentUtils;
 import me.flamboyant.causality.TriggerType;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;

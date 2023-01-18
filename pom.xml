@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.flamboyant</groupId>
-    <artifactId>FlamboyantCausality</artifactId>
+    <artifactId>causality</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
 
@@ -69,6 +69,12 @@
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
             <version>1.19-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>me.flamboyant</groupId>
+            <artifactId>plugintools</artifactId>
+            <version>0.1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

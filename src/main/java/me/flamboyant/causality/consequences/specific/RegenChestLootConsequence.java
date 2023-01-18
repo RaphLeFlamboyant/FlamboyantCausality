@@ -2,7 +2,7 @@ package me.flamboyant.causality.consequences.specific;
 
 import me.flamboyant.causality.TriggerType;
 import me.flamboyant.causality.consequences.ATwistConsequence;
-import me.flamboyant.common.utils.Common;
+import me.flamboyant.utils.Common;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.Chest;

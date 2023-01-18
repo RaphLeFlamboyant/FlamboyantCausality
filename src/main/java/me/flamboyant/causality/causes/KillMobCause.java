@@ -1,6 +1,6 @@
 package me.flamboyant.causality.causes;
 
-import me.flamboyant.common.utils.Common;
+import me.flamboyant.utils.Common;
 import me.flamboyant.causality.TriggerType;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;

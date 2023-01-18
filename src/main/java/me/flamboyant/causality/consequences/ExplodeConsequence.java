@@ -1,8 +1,8 @@
 package me.flamboyant.causality.consequences;
 
-import me.flamboyant.common.parameters.AParameter;
-import me.flamboyant.common.parameters.IntParameter;
-import me.flamboyant.common.utils.Common;
+import me.flamboyant.parameters.AParameter;
+import me.flamboyant.parameters.IntParameter;
+import me.flamboyant.utils.Common;
 import me.flamboyant.causality.TriggerType;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
