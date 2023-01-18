@@ -1,6 +1,6 @@
 package me.flamboyant.causality.causes;
 
-import me.flamboyant.parameters.AParameter;
+import me.flamboyant.configurable.parameters.AParameter;
 import me.flamboyant.causality.TriggerType;
 import me.flamboyant.causality.TwistCausalityHandler;
 

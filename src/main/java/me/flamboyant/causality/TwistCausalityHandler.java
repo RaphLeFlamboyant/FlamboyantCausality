@@ -1,6 +1,6 @@
 package me.flamboyant.causality;
 
-import me.flamboyant.parameters.AParameter;
+import me.flamboyant.configurable.parameters.AParameter;
 import me.flamboyant.causality.causes.ATwistCause;
 import me.flamboyant.causality.consequences.ATwistConsequence;
 import org.bukkit.Location;

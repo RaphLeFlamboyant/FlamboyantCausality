@@ -1,6 +1,6 @@
 package me.flamboyant.causality.consequences;
 
-import me.flamboyant.parameters.AParameter;
+import me.flamboyant.configurable.parameters.AParameter;
 import me.flamboyant.causality.TriggerType;
 import org.bukkit.Location;
 import org.bukkit.block.Block;

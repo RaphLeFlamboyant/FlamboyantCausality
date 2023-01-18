@@ -1,8 +1,8 @@
 package me.flamboyant.causality.causes;
 
-import me.flamboyant.parameters.AParameter;
-import me.flamboyant.parameters.BooleanParameter;
-import me.flamboyant.parameters.IntParameter;
+import me.flamboyant.configurable.parameters.AParameter;
+import me.flamboyant.configurable.parameters.BooleanParameter;
+import me.flamboyant.configurable.parameters.IntParameter;
 import me.flamboyant.utils.Common;
 import me.flamboyant.causality.TriggerType;
 import org.bukkit.Material;

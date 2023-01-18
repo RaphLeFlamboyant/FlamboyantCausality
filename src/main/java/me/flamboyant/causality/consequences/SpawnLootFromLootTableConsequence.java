@@ -1,8 +1,8 @@
 package me.flamboyant.causality.consequences;
 
-import me.flamboyant.parameters.AParameter;
-import me.flamboyant.parameters.EnumParameter;
-import me.flamboyant.parameters.IntParameter;
+import me.flamboyant.configurable.parameters.AParameter;
+import me.flamboyant.configurable.parameters.EnumParameter;
+import me.flamboyant.configurable.parameters.IntParameter;
 import me.flamboyant.utils.Common;
 import me.flamboyant.causality.TriggerType;
 import org.bukkit.Location;
@@ -43,6 +43,7 @@ public class SpawnLootFromLootTableConsequence extends ATwistConsequence {
             LootTables.STRONGHOLD_CORRIDOR,
             LootTables.STRONGHOLD_CROSSING,
             LootTables.STRONGHOLD_LIBRARY,
+
             LootTables.UNDERWATER_RUIN_BIG,
             LootTables.UNDERWATER_RUIN_SMALL,
             LootTables.VILLAGE_ARMORER,
@@ -64,6 +65,7 @@ public class SpawnLootFromLootTableConsequence extends ATwistConsequence {
             LootTables.WOODLAND_MANSION,
             LootTables.ANCIENT_CITY_ICE_BOX,
             LootTables.ANCIENT_CITY);
+
 
     private static final int initialLuckToUse = 3;
     private IntParameter luckToUse = new IntParameter(Material.GOLD_INGOT, "Loot luck", "Loot luck", initialLuckToUse, 0, 5);
