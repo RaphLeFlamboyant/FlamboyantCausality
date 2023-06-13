@@ -2,14 +2,14 @@ package me.flamboyant.causality.causes;
 
 import me.flamboyant.configurable.parameters.AParameter;
 import me.flamboyant.causality.TriggerType;
-import me.flamboyant.causality.TwistCausalityHandler;
+import me.flamboyant.causality.CausalityHandler;
 
 import java.util.List;
 
 public abstract class ATwistCause {
-    protected TwistCausalityHandler causality;
+    protected CausalityHandler causality;
 
-    public final boolean attachAndStart(TwistCausalityHandler causality) {
+    public final boolean attachAndStart(CausalityHandler causality) {
         if (this.causality != null) return false;
         this.causality = causality;
         start();

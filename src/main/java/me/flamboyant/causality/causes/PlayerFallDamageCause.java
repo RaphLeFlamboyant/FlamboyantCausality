@@ -1,12 +1,13 @@
 package me.flamboyant.causality.causes;
 
+import me.flamboyant.configurable.parameters.IntParameter;
+import org.bukkit.Material;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.entity.EntityDamageEvent;
 
 public class PlayerFallDamageCause extends EntityDamagedCause {
     public PlayerFallDamageCause() {
-        lifeLossThreshold.setParameterName("Fall life loss");
-        lifeLossThreshold.setDescription("Fall life loss");
+        lifeLossThreshold = new IntParameter(Material.LEATHER_BOOTS, "Fall life loss", "Fall life loss", initialLifeLossThreshold, 1, 18);
     }
 
     @Override

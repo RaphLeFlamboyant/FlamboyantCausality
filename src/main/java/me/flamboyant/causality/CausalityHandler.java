@@ -11,20 +11,20 @@ import org.bukkit.inventory.ItemStack;
 
 import java.util.List;
 
-public class TwistCausalityHandler {
+public class CausalityHandler {
     private List<ATwistCause> causes;
     private List<ATwistConsequence> consequences;
     private List<TriggerType> executeOn;
     private String name = "-";
     private boolean isRunning;
 
-    public TwistCausalityHandler(List<ATwistCause> causes, List<ATwistConsequence> consequences, List<TriggerType> executeOn) {
+    public CausalityHandler(List<ATwistCause> causes, List<ATwistConsequence> consequences, List<TriggerType> executeOn) {
         this.causes = causes;
         this.consequences = consequences;
         this.executeOn = executeOn;
     }
 
-    public TwistCausalityHandler(List<ATwistCause> causes, List<ATwistConsequence> consequences, List<TriggerType> executeOn, String name) {
+    public CausalityHandler(List<ATwistCause> causes, List<ATwistConsequence> consequences, List<TriggerType> executeOn, String name) {
         this(causes, consequences, executeOn);
         this.name = name;
     }

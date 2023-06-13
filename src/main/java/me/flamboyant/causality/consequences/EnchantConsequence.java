@@ -3,7 +3,6 @@ package me.flamboyant.causality.consequences;
 import me.flamboyant.configurable.parameters.AParameter;
 import me.flamboyant.configurable.parameters.EnumParameter;
 import me.flamboyant.utils.Common;
-import me.flamboyant.utils.EnchantmentUtils;
 import me.flamboyant.causality.TriggerType;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
@@ -13,6 +12,7 @@ import org.bukkit.inventory.PlayerInventory;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -33,7 +33,7 @@ public class EnchantConsequence extends ATwistConsequence {
     }
 
     public EnchantConsequence() {
-        validEnchantments = new ArrayList<>(EnchantmentUtils.enchantmentValues.stream()
+        validEnchantments = new ArrayList<>(Collections.unmodifiableList(Arrays.asList(Enchantment.values())).stream()
                 .filter(e -> !e.equals(Enchantment.BINDING_CURSE) && !e.equals(Enchantment.VANISHING_CURSE))
                 .collect(Collectors.toList()));
     }

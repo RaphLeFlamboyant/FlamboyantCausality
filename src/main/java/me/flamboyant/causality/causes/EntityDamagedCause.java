@@ -17,7 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class EntityDamagedCause extends ATwistCause implements Listener {
-    private static final int initialLifeLossThreshold = 6;
+    protected static final int initialLifeLossThreshold = 6;
     protected IntParameter lifeLossThreshold = new IntParameter(Material.LEATHER_BOOTS, "Life loss Threshold", "Life loss Threshold", initialLifeLossThreshold, 1, 18);
 
     public void setLifeLossThreshold(int threshold) {
